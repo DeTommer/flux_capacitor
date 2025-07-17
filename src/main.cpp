@@ -1,11 +1,12 @@
+#include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 
 // Pin definitions for each string
-#define LED_PIN_1 3
-#define LED_PIN_2 4
-#define LED_PIN_3 5
+#define LED_PIN_1 2
+#define LED_PIN_2 3
+#define LED_PIN_3 4
 
-#define NUM_LEDS_PER_STRING 8
+#define NUM_LEDS_PER_STRING 4
 
 Adafruit_NeoPixel strip1(NUM_LEDS_PER_STRING, LED_PIN_1, NEO_GRB + NEO_KHZ800);
 Adafruit_NeoPixel strip2(NUM_LEDS_PER_STRING, LED_PIN_2, NEO_GRB + NEO_KHZ800);
